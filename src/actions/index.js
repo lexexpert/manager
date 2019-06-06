@@ -39,6 +39,6 @@ const loginUserSuccess = (dispatch, user) => {
     type: 'login_user_success',
     payload: user
   });
-  Actions.employeeList();
+  Actions.main();
 };
 
